@@ -18,10 +18,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_SYSTEM_NAME := polaris
 
-BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.19.0.ODGMIFA:user/release-keys"
+BUILD_FINGERPRINT := "Xiaomi/polaris/polaris:10/QKQ1.190828.002/V12.5.1.0.QDGCNXM:user/release-keys"
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="polaris-user 8.0.0 OPR1.170623.032 V9.5.19.0.ODGMIFA release-keys" \
+    PRIVATE_BUILD_DESC="polaris-user 10 QKQ1.190828.002 V12.5.1.0.QDGCNXM release-keys" \
     TARGET_PRODUCT="polaris"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
