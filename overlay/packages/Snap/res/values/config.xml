@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2009 The Android Open Source Project
+<!-- Copyright (C) 2012 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,13 +14,9 @@
      limitations under the License.
 -->
 
+<!-- Camera app resources that may need to be customized
+     for different hardware or product builds. -->
 <resources>
-    <!-- Whether to show a preference item for regulatory information in About phone -->
-    <bool name="config_show_regulatory_info">true</bool>
-
-     <!-- Whether to show a preference item for mobile plan -->
-    <bool name="config_show_mobile_plan">false</bool>
-
-     <!-- Whether to show the Preference for Adaptive connectivity -->
-    <bool name="config_show_adaptive_connectivity">false</bool>
+    <!-- Enable support for camera api v2 -->
+    <bool name="support_camera_api_v2">true</bool>
 </resources>
